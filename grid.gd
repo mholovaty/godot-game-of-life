@@ -1,6 +1,6 @@
 extends Node2D
 
-const GRID_SIZE = 16
+const GRID_SIZE = 8
 const GRID_COLOR = Color(100/256.0, 100/256.0, 100/256.0)
 
 func _draw():
