@@ -1,10 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://cm5fyaeb6gxd5"]
+[gd_scene load_steps=3 format=3 uid="uid://cm5fyaeb6gxd5"]
 
 [ext_resource type="Script" uid="uid://s1svidamxf5b" path="res://grid.gd" id="1_p0ybc"]
+[ext_resource type="Script" uid="uid://rvvuc3a1rhnu" path="res://life.gd" id="2_psm7c"]
 
 [node name="TileMapLayer" type="TileMapLayer"]
 collision_enabled = false
 
-[node name="Node2D" type="Node2D" parent="."]
-visible = false
+[node name="Grid" type="Node2D" parent="."]
 script = ExtResource("1_p0ybc")
+
+[node name="Life" type="Node2D" parent="."]
+script = ExtResource("2_psm7c")
